@@ -168,7 +168,8 @@ export default function Test() {
     console.log("Form submitted. Time remaining: " + timeRemaining);
     try {
       const response = await axios.post(
-        "https://sheetdb.io/api/v1/ivyccp59wbjb2",
+        "https://sheetdb.io/api/v1/g77wpnyccre28",
+      
         formData,
         {
           headers: {
@@ -193,8 +194,8 @@ export default function Test() {
 
   const isValidUser = async () => {
     try {
-      const response = await axios.get(
-        "https://sheetdb.io/api/v1/ivyccp59wbjb2",
+      const response = await axios.post(
+        "https://sheetdb.io/api/v1/g77wpnyccre28",
         formData,
         {
           headers: {
